@@ -7,7 +7,7 @@ var wol = require('wake_on_lan');
 module.exports = function(homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
-    homebridge.registerAccessory("homebridge-saphir-tv", "PhilipsSaphirTV", HttpStatusAccessory);
+    homebridge.registerAccessory("homebridge-philips-saphi-tv", "PhilipsSaphiTV", HttpStatusAccessory);
 }
 
 function HttpStatusAccessory(log, config) {
